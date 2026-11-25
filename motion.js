@@ -27,4 +27,4 @@ function draw(time) {
 }
 requestAnimationFrame(draw);new ResizeObserver(()=>draw(5000)).observe(canvas);
 const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('entered');observer.unobserve(entry.target)}}));
-document.querySelectorAll('.works article,.pair article').forEach(el=>observer.observe(el));
+document.querySelectorAll('main h2, .pair article, #skills dt, #skills dd, #education h3').forEach(el=>observer.observe(el));
