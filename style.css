@@ -10,3 +10,5 @@
 @media(prefers-reduced-motion:no-preference){.reveal{animation:enter .55s cubic-bezier(.18,.75,.3,1) both}}
 @media(max-width:720px){.story,.stack-grid{grid-template-columns:1fr}.brief{position:static}.terminal{width:100%}.hero{padding-bottom:38px}.story ol{padding-left:5px}}
 .sculpture img{display:block;width:100%;height:auto}.logos{display:flex;gap:10px 18px;align-items:center;flex-wrap:wrap;list-style:none;padding:0;margin:17px 0 0}.logos li{display:inline-flex;align-items:center;gap:7px;font-size:.88rem;font-weight:600}.logos img{object-fit:contain}.hero .lead{max-width:50ch}.sculpture{pointer-events:none}@media(max-width:720px){.sculpture{width:min(100%,370px);justify-self:center}}
+
+.story .story-label{font:600 .85rem/1.5 'IBM Plex Mono',monospace;letter-spacing:.04em;color:#435e46;margin:0 0 10px}
